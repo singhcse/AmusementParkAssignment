@@ -6,6 +6,7 @@ abstract public class AmusementPark {
     public static String[][] amusementParkNameArr = {{"Wonderla", "BlackThunder", "Disney"}, {"NewStreet", "OldSquare", "PalmerStreet"}};
     private int entryFee;
     private String location;
+
     private String ticketId;
     private float finalAmount;
     private static int counter = 1000;
